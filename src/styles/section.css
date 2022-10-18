@@ -1,0 +1,85 @@
+.container-section {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-section .section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 800px;
+  /* animation: circle 4s linear 1s infinite normal both;
+  animation: mymove 4s linear 1s infinite normal both; */
+}
+
+.container-section .section
+.section-rick
+{
+    height: 500px;
+    
+}
+
+.container-section .section
+.section-rick img{
+    width: 700px;
+    
+} 
+
+
+
+.container-section .section
+.section-title img
+{
+    width: 700px;
+}
+
+
+
+@keyframes circle 
+{
+    0%{
+       box-shadow: 20px 28px 52px #91ed3b44;
+
+    }
+
+   
+  
+    50%{
+        box-shadow: 20px 28px 52px #91ed3bbe;
+    } 
+
+
+    100%{
+        box-shadow: 20px 28px 52px #91ed3b44;
+    }
+}
+
+
+@keyframes mymove {
+   
+
+    0%{
+        box-shadow: 40px 8px 52px #91ed3b00;
+        background: #000
+     }
+ 
+    
+   
+     50%{
+         box-shadow: 40px 8px 32px #91ed3be3;
+         background-color: #91ed3be1;
+     } 
+ 
+ 
+     100%{
+         box-shadow:40px 0px 52px #91ed3b00;
+         background: #000
+     }
+  }
+
+  /* background: linear-gradient(#000,#91ed3b44) ; */

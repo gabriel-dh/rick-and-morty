@@ -1,0 +1,217 @@
+.container-content 
+{
+
+width: 100%;
+background: #000;
+overflow: auto;
+}
+
+
+.container-content  .background-image 
+{
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  z-index: 0;
+}
+
+
+
+
+
+
+.container-content  .background-image img
+{
+    margin-top: 50% ;
+    animation: biggest 10s linear 1s infinite normal both;
+}
+
+
+.container-content .content
+{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    position: relative;
+    z-index: 50;
+}
+
+
+.container-content .content .content-cards 
+{
+    margin: 25px;
+    font-weight: 500;
+    width: 320px;
+    /* color: #5df167; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    background-color: rgba(88, 88, 88, 0.377);
+    padding: 30px 20px;
+    border-radius: 5px;
+    backdrop-filter: blur(4px);
+    
+}
+
+.container-content .content .content-cards .cards-imgs
+{
+    width: 310px;
+    height: 310px;
+    overflow: hidden;
+}
+
+
+
+
+.container-content .content .content-cards .cards-imgs img
+{
+    cursor: pointer;
+    width: 310px;
+    transition: all 1s ease;
+}
+
+
+
+.container-content .content .content-cards .cards-imgs img:hover
+{
+    width: 330px;
+}
+
+
+
+.container-content .content .content-cards .cards-information
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 310px;
+    margin-top: 20px;
+}
+
+.container-content .content .content-cards .cards-information span
+{
+    color: #00ff11;
+}
+
+.container-content .content .content-cards .cards-information .name
+{
+    color: #00ff11;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+
+.container-content .content .content-cards .cards-information 
+{
+    color: #7cff77;
+}
+
+
+.container-content .buttons button
+{
+   font-size: 17px;
+   font-weight: 600;
+   padding: 15px 35px;
+   margin: 18px;
+   color: #000;
+  background: none;
+  border: none;
+   animation: buttons 4s linear 1s infinite normal both;
+   cursor: pointer;
+   transition: all .1s linear;
+}
+
+.container-content .buttons button a
+{
+   
+   color: #000;
+   text-decoration: none;
+}
+
+
+.container-content .buttons button:hover
+{
+   
+   background: #86eb27e1 !important;
+}
+
+
+
+/******************************ANIMATIONS**********************************/
+
+@keyframes biggest 
+{
+    0%{
+        width: 30%;
+    }
+
+    25%{
+        width: 60%;
+    }
+
+    50%{
+        width: 90%;
+    }
+
+    75%{
+        width: 60%;
+    }
+
+    100%{
+        width: 30%;
+    }
+
+ 
+}
+
+
+@keyframes buttons {
+   
+
+    0%{
+        /* box-shadow: 0px 5px 2px #91ed3b9c; */
+        background: #83e62762
+     }
+ 
+    
+   
+     50%{
+         /* box-shadow: 0px 5px 2px #91ed3be3; */
+         background: #91ed3be1;
+     } 
+ 
+ 
+     100%{
+         /* box-shadow:0px 5px 2px #91ed3b9c; */
+         background: #83e62762
+     }
+  }
+
+
+  @keyframes mymove2 {
+   
+
+    0%{
+     
+        background: #000
+     }
+ 
+    
+   
+     50%{
+         
+         background: #91ed3be1;
+     } 
+ 
+ 
+     100%{
+         
+         background: #000
+     }
+  }

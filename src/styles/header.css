@@ -1,0 +1,10 @@
+.container-header
+{
+    width: 100%;
+    background-color: white;
+}
+
+.container-header .header
+{
+  display: flex; 
+}
